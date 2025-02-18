@@ -3,13 +3,13 @@ import logo from "../assets/img/dc-logo.png"
 const Header = () => {
 
     return (
-        <header className="container d-flex justify-content-between align-items-center py-3">
+        <header className="container d-flex justify-content-around align-items-center py-3">
         <figure>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo"/>
         </figure>
         <nav>
             <ul className="breadcrumb d-flex gap-3">
-                <li className="text-body-tertiary"><a href="#">CHARACTERS</a></li>
+                <li><a href="#">CHARACTERS</a></li>
                 <li><a href="#">COMICS</a></li>
                 <li><a href="#">MOVIES</a></li>
                 <li><a href="#">TV</a></li>
