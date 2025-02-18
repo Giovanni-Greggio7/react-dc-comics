@@ -34,33 +34,7 @@ const Main = () => {
                     <img src={visa} height={"60px"} alt="logo"/>
                     <p>VISA</p>
                 </div>
-            </div>
-            <div className="backimage">
-                <div className="d-flex justify-content-around">
-                  <div className="d-flex flex-column">
-                    <h5>DC COMICS</h5>
-                    <ul className="breadcrumb d-flex flex-column gap-3">
-                        <li><a href="#">CHARACTERS</a></li>
-                        <li><a href="#">COMICS</a></li>
-                        <li><a href="#">MOVIES</a></li>
-                        <li><a href="#">TV</a></li>
-                        <li><a href="#">GAMES</a></li>
-                        <li><a href="#">COLLECTIBLES</a></li>
-                        <li><a href="#">VIDEOS</a></li>
-                        <li><a href="#">FANS</a></li>
-                        <li><a href="#">NEWS</a></li>
-                        <li><a href="#">SHOP</a></li>
-                    </ul>
-                    <h5>DC COMICS</h5>
-                    <ul className="breadcrumb d-flex flex-column gap-3">
-                        <li><a href="#">CHARACTERS</a></li>
-                        <li><a href="#">COMICS</a></li>
-                    </ul>
-                  </div>
-
-                </div>
-            </div>
-            
+            </div>    
         </main>
     )
 }
