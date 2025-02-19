@@ -1,99 +1,99 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
-    font-family: Open Sans;
-    font-weight: 700;
+* {
+  font-family: Open Sans;
+  font-weight: 700;
 }
 
 h3 {
-    font-weight: 700;
-    color: white
+  font-weight: 700;
+  color: white
 }
 
-ul li a{
+ul li a {
   list-style-type: none;
   text-decoration: none;
   color: #303030;
 }
 
 nav ul li a:hover {
-   padding-block: 68px;
-   border-bottom: 5px solid #0C6EFD;
-   color: #0C6EFD;
+  padding-block: 68px;
+  border-bottom: 5px solid #0C6EFD;
+  color: #0C6EFD;
 }
 
-main, p{
-    color: white;
-    font-weight: 500
+main,
+p {
+  color: white;
+  font-weight: 500
 }
 
 footer {
-    background-image: url("./assets/img/footer-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-  }
-  
-  footer section {
-    display: flex;
-    gap: 4em;
-  }
-  
-  footer section ul li a {
-    color: #959595;
-  }
-  
-  .lista-header {
-    color: white;
-    list-style-type: none;
-    font-weight: 600;
-  }
+  background-image: url("./assets/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  h2 {
-    font-size: 25px;
-    font-weight: 700;
-  }
-  
-  footer section ul li {
-    padding-block: 0.1rem;
-  }
+}
 
-  footer section ul li a{
-    font-weight: 300;
-  }
+footer section {
+  display: flex;
+  gap: 4em;
+}
 
-  section {
-    padding-block: 20px;
-  }
-  
-  .button {
-    font-size: 1rem;
-    background-color: #303030;
-    color: white;
-    border: 2px solid #0282f9;
-    padding: 10px;
-  }
-  
-  .bg-black {
-    background-color: #303030;
-    padding-block: 41px;
-  }
-  
-  .footer-icone {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-  }
-  
-  .list-header-footer {
-    color: #0282f9;
-    list-style-type: none;
-  }
-  
-  .social-logos {
-    display: flex;
-    gap: 1.5em;
-    list-style-type: none;
-  }
+footer section ul li a {
+  color: #959595;
+}
+
+.lista-header {
+  color: white;
+  list-style-type: none;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+footer section ul li {
+  padding-block: 0.1rem;
+}
+
+footer section ul li a {
+  font-weight: 300;
+}
+
+section {
+  padding-block: 20px;
+}
+
+.button {
+  font-size: 1rem;
+  background-color: #303030;
+  color: white;
+  border: 2px solid #0282f9;
+  padding: 10px;
+}
+
+.bg-black {
+  background-color: #303030;
+  padding-block: 41px;
+}
+
+.footer-icone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.list-header-footer {
+  color: #0282f9;
+  list-style-type: none;
+}
+
+.social-logos {
+  display: flex;
+  gap: 1.5em;
+  list-style-type: none;
+}
