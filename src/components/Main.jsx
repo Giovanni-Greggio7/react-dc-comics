@@ -8,13 +8,13 @@ const Main = () => {
 
     return (
         <main>
-            <div className="bg-black py-3">
+            <div className="bg-black py-5">
                 <div className="container">
                     <h3>--Content goes Here--</h3>
                 </div>
             </div>
             <div className="bg-primary py-4">
-              <div className="container d-flex  justify-content-around py-3">
+              <div className="container d-flex  justify-content-between py-3">
                 <div className="d-flex align-items-center gap-3">
                     <img src={digital} height={"80px"} alt="logo"/>
                     <p>DIGITAL COMICS</p>

@@ -11,6 +11,18 @@ h3 {
     color: white
 }
 
+ul li a{
+  list-style-type: none;
+  text-decoration: none;
+  color: #303030;
+}
+
+ul li a:hover {
+   padding-block: 65px;
+   border-bottom: 5px solid #0C6EFD;
+   color: #0C6EFD;
+}
+
 main, p{
     color: white;
     font-weight: 500
@@ -35,10 +47,24 @@ footer {
   .lista-header {
     color: white;
     list-style-type: none;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
   }
   
   footer section ul li {
-    padding-block: 0.5rem;
+    padding-block: 0.1rem;
+  }
+
+  footer section ul li a{
+    font-weight: 300;
+  }
+
+  section {
+    padding-block: 20px;
   }
   
   .button {
@@ -69,4 +95,5 @@ footer {
   .social-logos {
     display: flex;
     gap: 1.5em;
+    list-style-type: none;
   }
