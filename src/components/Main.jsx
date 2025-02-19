@@ -13,7 +13,8 @@ const Main = () => {
                     <h3>--Content goes Here--</h3>
                 </div>
             </div>
-            <div className="d-flex justify-content-around py-3 bg-primary py-4">
+            <div className="bg-primary py-4">
+              <div className="container d-flex  justify-content-around py-3">
                 <div className="d-flex align-items-center gap-3">
                     <img src={digital} height={"80px"} alt="logo"/>
                     <p>DIGITAL COMICS</p>
@@ -34,6 +35,8 @@ const Main = () => {
                     <img src={visa} height={"60px"} alt="logo"/>
                     <p>VISA</p>
                 </div>
+              </div>
+                
             </div>    
         </main>
     )
