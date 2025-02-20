@@ -3,16 +3,14 @@ import merchandise from "../assets/img/buy-comics-merchandise.png"
 import subscriptions from "../assets/img/buy-comics-subscriptions.png"
 import shopLocator from "../assets/img/buy-comics-shop-locator.png"
 import visa from "../assets/img/buy-dc-power-visa.svg"
+import ListaFumetti from "./ListaFumetti"
 
-const Main = () => {
+const Main = (props) => {
 
     return (
         <main>
-            <div className="bg-black py-5">
-                <div className="container">
-                    <h3>--Content goes Here--</h3>
-                </div>
-            </div>
+            <div className="jumbotron"></div>
+            <ListaFumetti comics={props.comics} />
             <div className="bg-primary py-4">
               <div className="container d-flex  justify-content-between py-3">
                 <div className="d-flex align-items-center gap-3">

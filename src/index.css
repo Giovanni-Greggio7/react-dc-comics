@@ -28,6 +28,63 @@ p {
   font-weight: 500
 }
 
+.jumbotron {
+  background-image: url("./assets/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.listino {
+  margin: 0;
+  background-color: #303030;
+}
+
+.lista-serie {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fumetto {
+  flex-basis: calc(90% / 6);
+}
+
+
+.titolo-listino {
+  margin: 0 auto;
+  width: 83%;
+  position: relative;
+}
+
+.titolo-listino
+button {
+  position: absolute;
+  top: -40px;
+  background-color: #0282f9;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.fumetto figure {
+  width: 190px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  justify-self: center;
+}
+
+.fumetto,
+figure,
+p {
+  justify-self: center;
+  text-transform: uppercase;
+}
+
+
 footer {
   background-image: url("./assets/img/footer-bg.jpg");
   background-repeat: no-repeat;
